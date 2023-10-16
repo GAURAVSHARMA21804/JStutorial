@@ -7,6 +7,7 @@ const repocount = 50
 console.log(`hello my name is ${name} and my repcount is ${repocount}`);
 
 const gameName = new String('gaurav') //another way to create string
+console.log(gameName)  //  value with typeof datatype =>[String: 'gaurav']
 //method of string
 
 //here gaurav =[0:'g' | 1:'a'|  2:'u'| 3:'r'| 4:'a'| 5:'v'] and [-6:'g' | -5:'a' | -4:'u' | -3:'r' | -2:'a' |-1:'v']

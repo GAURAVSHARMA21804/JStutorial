@@ -69,3 +69,38 @@ console.table([string0,string1,string2,string3,string4,string5,string6,string7,s
  0         =>        0               '0'                false
  1         =>        1               '1'                true
 */
+
+
+
+/************************************************Operations*********************************************** */
+
+let str1 = "hi"
+let str2 = "gaurav"
+let str3 = str1 + str2 
+console.log(str3)  //=> higaurav
+
+console.log(2 +2 )  //=> 4
+console.log(1 + "2") //=> 12
+console.log( 1 + 2 + "2") //=>122
+console.log("1" + 2 + 2 ) // => 32
+
+//another type of type conversion string, boolean, number to Number
+console.log(+true)  //=> 1
+console.log(+"")    // => 0
+console.log(+"33ab") // => NaN
+console.log(+null)   // => 0
+console.log(+undefined)  // => NaN
+console.log(+33)   //=>33
+
+let num1,num2,num3;
+num1 = num2 = num3 = 2+2;
+console.log(num1)  //=> 4
+
+
+let a =5;
+let b = ++a;
+console.log(a,b)  //=> 6 6   prefix increment
+
+let c =5;
+let d = c++
+console.log(c,d)  //=> 6 5   postfix increment

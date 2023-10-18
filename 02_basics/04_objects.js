@@ -60,3 +60,56 @@ const obj4 = {obj1 ,obj2 ,obj3}
  console.log(obj6)  //{ '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }
 
  //array of objects
+  const users = [
+    {
+        id:1,
+        email:"hgmail.com"
+    },
+    {
+        id:1,
+        email:"hgmail.com"
+    }, 
+    {
+        id:1,
+        email:"hgmail.com"
+    }, 
+    {
+        id:1,
+        email:"hgmail.com"
+    },
+
+  ]
+
+  users[1].email
+  
+  //objects methods
+  console.log(tinderUser)
+  console.log(Object.keys(tinderUser)); //[ 'id', 'name', 'isLoggedIn' ]
+  
+  console.log(Object.values(tinderUser)); //[ '123abc', 'Sammy', false ]
+  
+  console.log(Object.entries(tinderUser));  // key values in from in array
+//[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // to check the key is present in object or not
+
+
+ //destructuring of objects
+
+ const course = {
+    coursname:"js in hindi",
+    price: "999",
+    courseInstructor:"gaurav"
+ }
+//course.courseInstructor agr baar baar likhna na pde to 
+ const {courseInstructor} = course
+
+ //console.log(courseInstructor)
+
+ //agr object ke key ko alg name se acces krna ho to 
+ const {courseInstructor: instructor} = course
+ //console.log(instructor)
+
+
+
+ 
